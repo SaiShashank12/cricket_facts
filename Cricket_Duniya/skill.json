@@ -1,0 +1,54 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "It's an app which tells the bizarre facts about cricket",
+          "examplePhrases": [
+            "Alexa, open Cricket ki Duniya",
+            "Alexa, launch Cricket ki Duniya"
+          ],
+          "keywords": [
+            "Cricket",
+            "ki",
+            "Duniya",
+            "ipl",
+            "cricket",
+            "facts"
+          ],
+          "name": "Cricket Duniya",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/d477/9720215fb783474b928d5f6fba044c12/APP_ICON?versionId=3Miag95Vd4LEfwLh7X3Gx_tPITycI8Hy&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527506914&Signature=SX0AXHyG6H6H8u38DdwMhtmD3E8%3D",
+          "description": "'A true batsman should in most of his strokes tell the truth about himself.'\nNeville Cardus, these great cricketer make cricket a great sports. So, let's know about cricket more with this app. Warning: \"this app may give you nostagia\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c7a3/e4f1392441544bfda145c6612d83ccb7/APP_ICON_LARGE?versionId=9qnd1cIuOMeYCmxp3b05RYBp8LdR1KM2&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527506914&Signature=P2jzuBpl0YtjSluniukJoSNFpGo%3D"
+        },
+        "en-IN": {
+          "name": "Cricket Duniya"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "First , you have to the app, saying open cricket ki Duniya or open cricket ki Duniya, If you wanna hear them out then say , yes , billkul, yup or if you don't wanna listen just say no.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}

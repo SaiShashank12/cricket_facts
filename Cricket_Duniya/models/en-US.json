@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cricket ki duniya",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "positive",
+          "samples": [
+            "why not",
+            "of course",
+            "billkul",
+            "yes",
+            "yeah",
+            "yup"
+          ]
+        },
+        {
+          "name": "Negavitive",
+          "samples": [
+            "naah",
+            "never",
+            "no"
+          ]
+        }
+      ]
+    }
+  }
+}
